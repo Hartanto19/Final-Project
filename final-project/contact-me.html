@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Toped</title>
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-light">
+    <div class="container-width">
+        <a class="navbar-brand" href="index.html">
+            <img src="image/logo.png" width="100" height="40" class="d-inline-block align-top" alt="LOGO">
+        </a>
+        <a href="index.html" style ="color: black; margin-right : 20px">Home</a>
+        <a href="profile.html" style ="color: black; margin-right : 20px"> Profile</a>
+        <a href="contact-me.html"  style ="color: black">Contact Me</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+
+        <div class="center"> <h2>Let's Contact Me :</h2></div>
+        <div class="col-md-12">
+            <form method="POST"  action="https://formspree.io/21.hartanto868@gmail.com">
+                <label id="hidden"></label>
+                <div class="col-sm-12">
+                    <label>Name :</label>
+                    <input  class="form-control" type="text" name="email" placeholder="Your Name" required>
+                </div>
+                <div class="col">
+                    <label>Email :</label>
+                    <input  class="form-control" type="text" name="email" placeholder="Your email" required>
+                </div>
+                <div class="col">
+                    <label>Phone Number :</label>
+                    <input  class="form-control" type="text" name="email" placeholder="Your Phone Number" required>
+                </div>
+                <div class="col">
+                    <label>Message</label>
+                    <textarea class="form-control" name="message" placeholder="Test Message"></textarea>
+                </div>
+                <div class="col">
+                    <button type="submit" class=" btn btn-primary">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/js.js"></script>
+<script src="js/barang.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+
+<script>
+    cartMapping();
+</script>
+</body>
+</html>
